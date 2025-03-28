@@ -1,0 +1,52 @@
+p {
+    margin-bottom: 5px !important;
+}
+
+.card-wrapper {
+    width: max-content;
+    min-width: 16rem;
+    width: 24%;
+}
+
+.addr {
+    width: 16rem;
+}
+
+.not-found {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1200px) {
+    .card-wrapper {
+        width: 32% !important;
+    }
+
+    .title {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+    .card-wrapper {
+        width: 48% !important;
+    }
+
+    .not-found {
+        width: 200px;
+        height: 200px;
+    }
+
+    .title {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    .card-wrapper {
+        width: 100% !important;
+    }
+}

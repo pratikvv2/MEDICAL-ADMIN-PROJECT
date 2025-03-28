@@ -1,0 +1,27 @@
+.card-wrapper {
+    width: max-content;
+    min-width: 16rem;
+}
+
+.not-found {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+
+@media screen and (max-width: 720px) {
+    .card-wrapper {
+        width: 100% !important;
+    }
+
+    .not-found {
+        width: 200px;
+        height: 200px;
+    }
+
+    .title {
+        font-size: 12px;
+    }
+}
